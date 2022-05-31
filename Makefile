@@ -1,6 +1,7 @@
 PYTHON = python3
 BROWSER = firefox
-VERSION = 0.0.3
+VERSION = 0.1.1
+# REGISTRY = registry.andreee94.ml
 REGISTRY = andreee94
 IMAGE = technicolor-prometheus-exporter
 

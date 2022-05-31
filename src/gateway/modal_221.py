@@ -203,7 +203,7 @@ def parse_sockets(socket_divs):
             continue
 
         id = paragraphs[0]["id"]
-        status = paragraphs[0].text
+        status = paragraphs[0].text.strip()
 
         if len(paragraphs) == 1:  # disconnected
             sockets[id] = {"name": id, "speed": 0, "status": status}

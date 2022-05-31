@@ -61,6 +61,7 @@ class TechnicolorCollector(object):
 
         del info_data['uptime']
         del info_data['system_time']
+        del info_data['current_timezone']
         self.tecnicolor_info.add_metric([], info_data)
 
         yield self.technicolor_broadband_data
